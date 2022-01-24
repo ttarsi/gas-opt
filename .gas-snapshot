@@ -1,0 +1,2 @@
+testReadMemory() (gas: 1103)
+testReadStorage() (gas: 810)
