@@ -17,4 +17,10 @@ contract ContractTest is DSTest {
     function testReadMemory() public {
         c.readMemory();
     }
+    function testReadStorageAndMemory1() public {
+        c.readStorageAndMemory1();
+    }
+    function testReadStorageAndMemory2() public {
+        c.readStorageAndMemory2();
+    }
 }

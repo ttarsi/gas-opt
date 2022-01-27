@@ -1,2 +1,4 @@
-testReadMemory() (gas: 1103)
-testReadStorage() (gas: 810)
+testReadMemory() (gas: 1081)
+testReadStorage() (gas: 855)
+testReadStorageAndMemory1() (gas: 899)
+testReadStorageAndMemory2() (gas: 876)

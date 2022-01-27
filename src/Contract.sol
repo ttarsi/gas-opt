@@ -25,4 +25,18 @@ contract Contract {
     data.number;
     data.where;
   }
+
+  function readStorageAndMemory1() public view {
+    Data storage _data = data;
+    uint256 amount = _data.number;
+    amount;
+    amount;
+    amount;
+  }
+  function readStorageAndMemory2() public view {
+    Data storage _data = data;
+    _data.number;
+    _data.number;
+    _data.number;
+  }
 }
